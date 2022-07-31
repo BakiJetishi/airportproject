@@ -1013,7 +1013,7 @@ footer .footer2 a:hover{
 
     main .section1 .searchflights{
         text-align: start;
-        height: 500px;
+        height: 300px;
         grid-template-columns: repeat(3, 1fr);
     }
 
@@ -1026,7 +1026,7 @@ footer .footer2 a:hover{
     }
 
     main .section1 .searchflights input:not(input[type="radio"]){
-        width: 75%;
+        width: 70%;
     }
 
     main .section1 .searchflights select,
