@@ -1015,6 +1015,8 @@ footer .footer2 a:hover{
         text-align: start;
         height: 300px;
         grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2px;
+        padding: 10px;
     }
 
     main .section1 .searchflights h1{
