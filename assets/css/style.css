@@ -986,16 +986,16 @@ footer .footer2 a:hover{
         font-size: 11px;
     }
 
+    main .section1{
+        background-size: 100% 55%;
+    }
+
     main .section1 .text{
         margin-top: 70px;
     }
 
     main .section1 .text .sm{
         display: block;
-    }
-
-    main .section1{
-        background-size: 100% 55%;
     }
 
     main .section1 .searchinput{
@@ -1065,6 +1065,17 @@ footer .footer2 a:hover{
 
     main .section4{
         grid-template-columns: 1fr;
+    }
+
+    main .section4 .currency,
+    main .section4 .hotel,
+    main .section4 .car,
+    main .section4 .pyramids{
+        height: 150px;
+    }
+
+    main .section4 a h1{
+        z-index: 999;
     }
 
     main .section5{
