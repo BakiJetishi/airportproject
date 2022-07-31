@@ -1017,6 +1017,7 @@ footer .footer2 a:hover{
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 2px;
         padding: 10px;
+        display: none;
     }
 
     main .section1 .searchflights h1{
@@ -1143,6 +1144,11 @@ footer .footer2 a:hover{
     }
 
     .copyright{
+        font-size: 10px;
+    }
+
+    .backtotop{
+        padding: 20px 10px;
         font-size: 12px;
     }
 
