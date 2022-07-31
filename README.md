@@ -1,8 +1,1 @@
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-#                                                                 #
-#                                                                 #
-#                             URL:                                #
-#        https://bakijetishi.github.io/airportproject/            #
-#                                                                 #
-#                                                                 #
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+https://bakijetishi.github.io/airportproject/
