@@ -45,7 +45,8 @@ header .container{
     margin: 0 auto;
 }
 
-header .container .mobilemenu{
+header .container .mobilemenu,
+header .container .mobilemenu .submenu{
     display: none;
 }
 
@@ -758,11 +759,44 @@ footer .footer2 a:hover{
     header .container .mobilemenu{
         display: inline-block;        
         cursor: pointer;
+        position: relative;
     }
 
     header .container .mobilemenu i{
         color: var(--light-blue);
         padding: 7px;
+    }
+
+    header .container .mobilemenu:hover .submenu{
+        display: block;
+    }
+
+    header .container .mobilemenu .submenu{
+        position: absolute;
+        left: 0;
+        background-color: white;
+        width: 200px;
+        padding: 10px;
+        border: 1px solid var(--light-blue);
+        z-index: 999999;
+    }
+
+    header .container .mobilemenu .submenu ul li{
+        padding: 7px 0;
+    }
+    
+    header .container .mobilemenu .submenu ul li:hover{
+        text-decoration: underline;
+    }
+
+    header .container .mobilemenu .submenu ul li a::after{
+        font-family: "Font Awesome 5 Free";
+        content: '\f063';
+        display: inline-block;
+        font-weight: 900;
+        font-size: 11px;
+        position: absolute;
+        right: 10px;
     }
 
     header .container .nav ul li{
@@ -1071,11 +1105,7 @@ footer .footer2 a:hover{
     main .section4 .hotel,
     main .section4 .car,
     main .section4 .pyramids{
-        height: 150px;
-    }
-
-    main .section4 a h1{
-        z-index: 999;
+        height: 100px;
     }
 
     main .section5{
