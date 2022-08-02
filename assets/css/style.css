@@ -766,8 +766,15 @@ footer .footer2 a:hover{
         color: var(--light-blue);
         padding: 7px;
     }
+    
+    header .container .mobilemenu:focus i,
+    header .container .mobilemenu:active i{
+        transform: scale(1.2);
+        color: var(--dark-blue);
+    }
 
-    header .container .mobilemenu:hover .submenu{
+    header .container .mobilemenu:focus .submenu,
+    header .container .mobilemenu:active .submenu{
         display: block;
     }
 
