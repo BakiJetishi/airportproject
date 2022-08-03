@@ -1190,8 +1190,36 @@ footer .footer2 a:hover{
         margin-bottom: 20px;
     }
 
+    footer .footer1{
+        width: 100%;
+        justify-content: center;
+    }
+
+    footer .footer1 .logo h1{
+        font-size: 25px;
+    }
+
+    footer .footer2{
+        width: 90%;
+        gap: 10px;
+        padding: 30px 10px;
+    }
+
+    footer .footer2 h2{
+        font-size: 18px;
+    }
+
+    footer .footer2 a{
+        font-size: 12px;
+    }
+
+    .livechat{
+        right: 20px;
+        bottom: 65px;
+    }
+
     .copyright{
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .backtotop{
