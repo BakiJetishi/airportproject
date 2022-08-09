@@ -488,12 +488,22 @@ main .section5 .facilities a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: .5s;
+}
+
+main .section5 .facilities a:hover{
+	transform: translateY(-7px);
 }
 
 main .section5 .facilities i{
     color: var(--light-blue);
     font-size: 60px;
     margin-bottom: 15px;
+    transition: .5s;
+}
+
+main .section5 .facilities a:hover i{
+    color: var(--dark-blue);
 }
 
 main .section6{
